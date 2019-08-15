@@ -9,4 +9,4 @@ Tungsten Fabric is an open, standards-based software solution that delivers netw
 
 These release notes accompany Release 5.1 of Tungsten Fabric. They describe new features, limitations, and known problems.
 
-These release notes are displayed on the Tungsten Fabric Documentation Web page at https://www.juniper.net/documentation/en_US/contrail5.0/information-products/topic-collections/release-notes/index.html .
+These release notes are displayed on the Tungsten Fabric Documentation Web page at https://tungstenfabric.github.io/website .

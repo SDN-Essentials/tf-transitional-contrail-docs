@@ -1,9 +1,9 @@
 .. This work is licensed under the Creative Commons Attribution 4.0 International License.
    To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-=====================
-Contrail Release 5.1
-=====================
+===========================
+Tungsten Fabric Release 5.1
+===========================
 
 =============
 Release Notes
@@ -11,7 +11,7 @@ Release Notes
 
 Release 5.1
 
-Jul7 2019
+July 2019
 
 Table of Contents
 =================
@@ -21,108 +21,52 @@ Table of Contents
 
    -  `New and Changed Features`_
 
-     -  `New and Changed Features in Contrail Release 5.1`_
+     -  `New and Changed Features in Tungsten Fabric Release 5.1`_
 
-       -  `Support for Advertising of Local AS to BGP Peers`_
+       -  `BGPaaS Peer Zone Collection`_
 
-       -  `Support for EVPN Route Type 5`_
+       -  `Installing Contrail with Mesos`_
 
-       -  `Support For Encryption of Traffic Between vRouters`_
+       -  `Adding a New Compute Node to an Existing Containerized Contrail Cluster`_
 
-       -  `Support for Mellanox Connectx-5 NIC`_
+       -  `Support for Edge Routed Bridging`_
 
-       -  `Support for Remote Compute`_
+       -  `Routing Policies Match on Extended Communities`_
 
-       -  `Documentation Update`_
+       -  `Support for OpenShift 3.11`_
 
+       -  `Support for Kubernetes 1.12`_
 
+       -  `Auto-provisioning of IPtable Filtering Rules on Contrail Nodes`_
 
-     -  `New and Changed Features in Contrail Release 5.1`_
+       -  `Certificate Lifecycle Management Using Red Hat Identity Management`_
 
-       -  `Ansible Scripts to Provision Contrail`_
+       -  `Support for Controlling the Maximum Flow Scale Supported on a Virtual Machine Interface`_
 
+       -  `Support for Multiple Network Interfaces in Kubernetes`_
 
-       -  `Contrail Microservices`_
+       -  `Support for Prefix-Based Fat Flow`_
 
+       -  `Enable TLS Communication Between Analytics and Kafka`_
 
-       -  `Containerization of DPDK vRouter`_
+       -  `Support for Route Reflectors`_
 
+       -  `Support for Contrail on Windows Operating System`_
 
-       -  `Distributed Source Network Address Translation (SNAT)`_
+       -  `Support for EVPN Multicast Type 6 Selective Multicast Ethernet Tag Routes`_
 
+       -  `Support for MPLS L3VPN InterAS Option C`_
 
-       -  `EVPN vRouter MultiHoming to Multiple ToRs`_
+       -  `Support for Virtual Port Group`_
 
-
-       -  `Fat Flow Enhancements`_
-
-
-       -  `Implementing Kubernetes Network Policy with Contrail Firewall Policy`_
-
-
-       -  `Kubernetes Updates`_
-
-
-       -  `Routing Policies Enhanced for Interface Routes`_
-
-
-       -  `Service Instance Health Check Failure`_
-
-
-       -  `Support for Load Balancing as a Service (LBaaS) in the Web UI`_
-
-
-       -  `Support for Security Policies Draft Mode`_
-
-
-       -  `Support for Virtual Network Route Tables in Contrail Introspect`_
-
-
-       -  `Support for a Flow-Hold Entries Counter in vRouter UVEs`_
-
-
-       -  `Timestamp In UVE API Response`_
-
-
-       -  `Timestamp In UVE Stream Response`_
-
-
-       -  `Using Helm Charts to Provision Contrail`_
-
-
-       -  `RBAC Support for Contrail Analytics API—Beta`_
-
-
-       -  `Remote Compute—Beta`_
-
-
-
-   -  `Supported Platforms Contrail 5.0`_
+   -  `Supported Platforms Contrail 5.1`_
 
 
    -  `Known Behavior`_
 
-     -  `Known Behavior in Contrail Release 5.1`_
-
-
-     -  `Known Behavior in Contrail Release 5.1`_
-
-
-
-   -  `Resolved Issues`_
-
-     -  `Resolved Issues in Contrail Release 5.1`_
-
-
-     -  `Resolved Issues in Contrail Release 5.1`_
-
-
+     -  `Known Behavior in Tungsten Fabric Release 5.1`_
 
    -  `Deprecated Items`_
-
-
-   -  `Requesting Technical Support`_
-
 
    -  `Revision History`_
 
@@ -131,7 +75,7 @@ Table of Contents
 
 .. _New and Changed Features:  new-and-changed-features.html
 
-.. _New and Changed Features in Contrail Release 5.1:  new-and-changed-features.html
+.. _New and Changed Features in Tungsten Fabric Release 5.1:  new-and-changed-features.html
 
 .. _Support for Advertising of Local AS to BGP Peers:  new-and-changed-features.html
 
@@ -185,7 +129,7 @@ Table of Contents
 
 .. _Remote Compute—Beta:  new-and-changed-features.html
 
-.. _Supported Platforms Contrail 5.0:  supported-platforms-50-vnc.html
+.. _Supported Platforms Tungsten Fabric 5.1:  supported-platforms-51-vnc.html
 
 .. _Known Behavior:  known-behavior.html
 
